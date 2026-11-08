@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">ufa</string>
+    <string name="ufa_app">UFA</string>
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Log in to find rooms near your college.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="log_in">Log in</string>
+    <string name="continue_google">Continue with Google</string>
 </resources>
