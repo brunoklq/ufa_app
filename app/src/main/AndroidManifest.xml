@@ -17,14 +17,20 @@
             android:theme="@style/Theme.Ufa">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:exported="false"
             android:theme="@style/Theme.Ufa" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.Ufa"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

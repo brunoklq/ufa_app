@@ -18,7 +18,7 @@ class LoginActivity : ComponentActivity() {
                         // Explicit intent (Tutorial Four): go to the Home placeholder
                         startActivity(Intent(this, MainActivity::class.java))
                     },
-                    onSignUpClick = { /* Register screen comes in Step 3 */ }
+                    onSignUpClick = { startActivity(Intent(this, RegisterActivity::class.java)) }
                 )
             }
         }

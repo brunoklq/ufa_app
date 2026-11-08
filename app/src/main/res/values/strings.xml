@@ -10,4 +10,14 @@
     <string name="log_in">Log in</string>
     <string name="continue_google">Continue with Google</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="register_title">Create account</string>
+    <string name="register_subtitle">Join the UFA student community.</string>
+    <string name="full_name">Full name</string>
+    <string name="phone">Phone / WhatsApp</string>
+    <string name="role_student">I\'m a student</string>
+    <string name="role_host">I have a room</string>
+    <string name="terms">I agree to the Terms &amp; Privacy Policy</string>
+    <string name="create_account">Create account</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="title_activity_register">RegisterActivity</string>
 </resources>
