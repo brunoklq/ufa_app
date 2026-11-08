@@ -12,17 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ufa">
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true"
-            android:label="@string/ufa_app"
-            android:theme="@style/Theme.Ufa"
-            android:windowSoftInputMode="adjustResize">
+            android:theme="@style/Theme.Ufa">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Ufa" />
     </application>
 
 </manifest>

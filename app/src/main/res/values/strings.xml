@@ -4,7 +4,10 @@
     <string name="login_subtitle">Log in to find rooms near your college.</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
     <string name="forgot_password">Forgot password?</string>
     <string name="log_in">Log in</string>
     <string name="continue_google">Continue with Google</string>
+    <string name="title_activity_login">LoginActivity</string>
 </resources>
