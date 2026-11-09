@@ -1,6 +1,6 @@
 package com.example.ufa.ui.components
 
-import android.inputmethodservice.Keyboard
+
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -33,7 +33,7 @@ fun UfaTextField(
     iconRes: Int,
     modifier: Modifier = Modifier,
     isPassword: Boolean = false,
-    keyboardType: KeyboardType = KeyboardType.Text
+    keyboardType: KeyboardType = KeyboardType.Text   // NEW
 ) {
     Column(modifier = modifier) {
         Text(
@@ -51,7 +51,7 @@ fun UfaTextField(
             shape = RoundedCornerShape(12.dp),
             visualTransformation = if (isPassword) PasswordVisualTransformation() else VisualTransformation.None,
             keyboardOptions = KeyboardOptions(
-                keyboardType = if (isPassword) KeyboardType.Password else keyboardType
+                keyboardType = if (isPassword) KeyboardType.Password else keyboardType   // CHANGED
             ),
             modifier = Modifier.fillMaxWidth()
         )
